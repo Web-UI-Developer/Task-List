@@ -114,7 +114,7 @@ function clearTasksFromLocalStorage() {
     localStorage.clear();
 }
 
-function filterTasks(e) {
+function filterTasks(e) {                                                                         // Filter Tasks from List
     const text = e.target.value.toLowerCase();
 
     document.querySelectorAll('.collection-item').forEach(function (task) {
